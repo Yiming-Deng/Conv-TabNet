@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, colors
 
-from pytorch_tabnet.tab_model import TabNetRegressor
+from conv_tabnet.tab_model import TabNetRegressor
 
 from sklearn.metrics import r2_score
 from tqdm import tqdm
